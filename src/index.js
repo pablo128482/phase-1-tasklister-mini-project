@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+
 });
+
+if (Event.preventDefault){
+  Event.preventDefault();
+} else{
+  Event.DomContentLoaded = false;
+}
